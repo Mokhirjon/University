@@ -4,7 +4,7 @@
 ### Image ###
 students_diploma/
 students_passport/
-university_photos/
+univesity_photos/
 
 ### Django ###
 *.log
