@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(default='', max_length=50)),
                 ('when_created', models.DateField(default=datetime.datetime.now)),
                 ('Who_created', models.CharField(default='', max_length=50)),
-                ('photo', models.ImageField(upload_to='univesity_photos/')),
+                ('photo', models.ImageField(upload_to='university_photos/')),
                 ('university_bio', models.TextField()),
                 ('location', models.CharField(default='', max_length=50)),
                 ('contact_with_admin', models.CharField(default='', max_length=50)),

@@ -2,15 +2,15 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
 ### Image ###
-students_diploma/
-students_passport/
-university_photos/
+.students_diploma/
+.students_passport/
+.university_photos/
 
 ### Django ###
 *.log
 *.pot
 *.pyc
-__pycache__/
+ 2qa/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
